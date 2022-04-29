@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas absolutas
+            Cm,mm: São medidas básicas
+            in:
+            px: Usa medida em pixel, como a apple usa nas telas de retina
+            pt,pc: São medidas pra telas com letras impressas em tela, para leitura
+            
+            Medidas Relativas
+            em: tamanho atual de uma fonte (relativo a um tamanho M de uma fonte)
+            ex: altura da letra de uma fonte com relação ao X
+            Rem:Tipo o EM mas relativo ao Hud> fonte que ta configurada no body
+            vw: Largura da view port: tamanho da tela
+            vh: Altura da Vw
+            %
+
+            16px geralmente é = 1em 
+
+            */
+            font-size: 1em ;
+            font-weight: ;
+            /* Lighter, normal, bold, bolder*/
+
+        }
+        h1 {
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*Shorthand font
+            
+            - font-style -> Font-weight-> font-size -> Font-family
+
+            */
+            font:italic bold 3em 'Times New Roman', 
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eligendi tempore facilis deserunt eaque delectus, ab veritatis vel dicta qui incidunt aliquid. Nesciunt doloremque laborum saepe repellendus temporibus ab expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi est molestias temporibus corporis aut repellendus natus explicabo quod. Facilis reprehenderit saepe accusamus porro, totam ab assumenda sed quam optio excepturi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet hic quos rem mollitia error nam aliquam corrupti, cumque ipsa quibusdam sed, non dolore sint ea minus autem magnam provident omnis?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quo, ut eaque nisi iste unde ab ratione, voluptatem perspiciatis quod fugiat cum commodi error nulla officiis, nam eum tempora aliquam?</p>
+    
+</body>
+</html>
